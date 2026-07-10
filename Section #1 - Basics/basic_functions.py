@@ -3,8 +3,8 @@
 import cv2 as cv
 
 # Read in an image
-img = cv.imread('../Resources/Photos/park.jpg')
-cv.imshow('Pcdark', img)
+img = cv.imread('../Resources/Photos/pisot.jpg')
+cv.imshow('pisot', img)
 
 # Converting to grayscale
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
